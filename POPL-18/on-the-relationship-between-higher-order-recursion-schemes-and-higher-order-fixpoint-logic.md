@@ -1,0 +1,16 @@
+---
+title: POPL: On the Relationship Between Higher-Order Recursion Schemes and Higher-Order Fixpoint Logic
+author: your-uid-here (your-name-here)
+abstract: Jan 18 16:55
+---
+
+There is currently no liveblog summary available for this talk. Please contribute one by modifying [this file](https://github.com/ocamllabs/popl2017-blog/blob/master/POPL-18/on-the-relationship-between-higher-order-recursion-schemes-and-higher-order-fixpoint-logic.md).
+
+Some useful contributions before the talk include:
+* a link to an open access preprint PDF (see [here](https://github.com/gasche/popl2017-papers))
+* background information you might feel will help readers understand the talk better
+
+During the talk, some useful things to record in a liveblog are:
+* the general flow of the speaker's explanation
+* summaries or links that would be useful to a reader that has not read the paper
+* any questions the audience asks which may not be recorded correctly
