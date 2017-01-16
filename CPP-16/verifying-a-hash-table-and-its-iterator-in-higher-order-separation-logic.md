@@ -1,6 +1,6 @@
 ---
 title: CPP: Verifying a hash table and its iterator in higher-order separation logic
-author: your-uid-here (your-name-here)
+author: let-def (Frédéric Bour)
 abstract: Jan 16 10:30
 ---
 
