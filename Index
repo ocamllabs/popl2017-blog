@@ -1,0 +1,33 @@
+---
+title: POPl 2017 Liveblog Index
+author: Frédéric Bour
+abstract: All the liveblogs
+---
+
+Welcome to the unofficial [POPL 2017](http://popl17.sigplan.org)
+liveblog!  This is a resource intended to capture attendees notes
+across the [hundreds of talks](http://popl17.sigplan.org/program/program-POPL-2017) that will be given at POPL 2017 in Paris, France.
+Any attendee of the conference is welcome to contribute their notes here, and
+we will aggregate them after the event into an archive.
+
+The following events/days are being liveblogged:
+
+* **[CPP - Jan 16](CPP-16)** - *[homepage](http://popl17.sigplan.org/track/CPP-2017)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3ACPP)*
+* **[CPP - Jan 17](CPP-17)** - *[homepage](http://popl17.sigplan.org/track/CPP-2017)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3ACPP)*
+* **[POPL main conference - Jan 18](POPL)** - *[homepage](http://popl17.sigplan.org)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3APOPL)*
+* **[POPL main conference - Jan 19](POPL)** - *[homepage](http://popl17.sigplan.org)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3APOPL)*
+* **[POPL main conference - Jan 20](POPL)** - *[homepage](http://popl17.sigplan.org)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3APOPL)*
+* **[CoqPL](CoqPL)** - *[homepage](http://popl17.sigplan.org/track/main)*, *[issues](https://github.com/ocamllabs/popl2017-blog/issues?q=is%3Aopen+is%3Aissue+label%3ACoqPL)*
+
+Some useful resources:
+* Data is a Git repo at <https://github.com/ocamllabs/popl2017-blog>; [PRs](https://help.github.com/articles/creating-a-pull-request/) welcome!
+* POPL preprints: <https://github.com/gasche/popl2017-papers>
+* Conference website: <http://www.sigplan.org/Conferences/POPL>
+
+Site Info:
+* It is served via an OCaml [MirageOS](https://mirage.io) [unikernel](https://en.wikipedia.org/wiki/Unikernel) running on [Docker Cloud](http://cloud.docker.com).
+* The blog software is the [Canopy](https://github.com/engil/canopy) system built by [Enguerrand Decorne](https://github.com/Engil) during an internship at [OCaml Labs](http://ocaml.io) in Cambridge.
+* The scripts for generating the Git templates are available [here](https://github.com/ocamllabs/popl2017-blog/tree/code)
+
+ChangeLog:
+* 15th Jan 2017: Repository setup *-let-def*
