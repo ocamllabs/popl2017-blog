@@ -1,16 +1,17 @@
 ---
 title: CPP: Type-and-scope safe programs and their proofs
-author: your-uid-here (your-name-here)
+author: let-def (Frédéric Bour)
 abstract: Jan 17 16:00
 ---
 
-There is currently no liveblog summary available for this talk. Please contribute one by modifying [this file](https://github.com/ocamllabs/popl2017-blog/blob/master/CPP-17/type-and-scope-safe-programs-and-their-proofs.md).
+A tool to easy manipulation of binders in "type and scope" safe programs.
 
-Some useful contributions before the talk include:
-* a link to an open access preprint PDF (see [here](https://github.com/gasche/popl2017-papers))
-* background information you might feel will help readers understand the talk better
+Assuming an encoding with a typed syntax.  Many transformation working with
+binders have a similar structure (renaming, substitution, etc). `Kit` is a
+first abstraction proposed by McBride (?) to automate these.
 
-During the talk, some useful things to record in a liveblog are:
-* the general flow of the speaker's explanation
-* summaries or links that would be useful to a reader that has not read the paper
-* any questions the audience asks which may not be recorded correctly
+The author presents a more general `Semantics` abstraction (applying to
+semantics too) generalizing `Kit`. It can handle renaming (`Semantics
+Var Var`, ... from `Var` to `Var`), substitution (`Semantics Var Tm`, from var
+to terms), normalization by evaluation (`Semantics Kr Kr`, one still has to
+implement reification manually) ...

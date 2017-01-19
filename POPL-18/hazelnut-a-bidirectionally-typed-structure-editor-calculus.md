@@ -1,16 +1,18 @@
 ---
 title: POPL: Hazelnut: A Bidirectionally Typed Structure Editor Calculus
-author: your-uid-here (your-name-here)
+author: let-def (Frédéric Bour)
 abstract: Jan 18 11:20
 ---
 
-There is currently no liveblog summary available for this talk. Please contribute one by modifying [this file](https://github.com/ocamllabs/popl2017-blog/blob/master/POPL-18/hazelnut-a-bidirectionally-typed-structure-editor-calculus.md).
+Observation: during edition, a program is just a piece of text, not a program yet.
+No syntactic guarantee.
 
-Some useful contributions before the talk include:
-* a link to an open access preprint PDF (see [here](https://github.com/gasche/popl2017-papers))
-* background information you might feel will help readers understand the talk better
+Classic solution: add holes to the syntax to represent incomplete pieces.
 
-During the talk, some useful things to record in a liveblog are:
-* the general flow of the speaker's explanation
-* summaries or links that would be useful to a reader that has not read the paper
-* any questions the audience asks which may not be recorded correctly
+How to reason statically about that?
+
+# Contribution
+
+Static semantics for a bidirectional calculus with holes.
+
+Related to gradual typing.
